@@ -26,3 +26,36 @@ fieldset{
 fieldset:last-of-type {
   border-bottom: none;
 }
+
+
+ul{
+  list-style: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 20%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: white;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+}
+
+.submit{
+  background-color: grey;
+}
+/*.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+} */
